@@ -1,0 +1,27 @@
+{
+  "name": "leetcode-algo",
+  "version": "1.0.0",
+  "description": "data structures and algorithms using javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helping083/leetcode-data-structures-and-algo.git"
+  },
+  "keywords": [
+    "javascript",
+    "leetcode",
+    "algo",
+    "algorithms",
+    "data-structures",
+    "patterns"
+  ],
+  "author": "o.voyt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/helping083/leetcode-data-structures-and-algo/issues"
+  },
+  "homepage": "https://github.com/helping083/leetcode-data-structures-and-algo#readme"
+}
