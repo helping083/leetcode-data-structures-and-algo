@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -24,5 +24,10 @@
   "bugs": {
     "url": "https://github.com/helping083/leetcode-data-structures-and-algo/issues"
   },
-  "homepage": "https://github.com/helping083/leetcode-data-structures-and-algo#readme"
+  "homepage": "https://github.com/helping083/leetcode-data-structures-and-algo#readme",
+  "dependencies": {
+    "connect": "^3.7.0",
+    "nodemon": "^2.0.7",
+    "serve-static": "^1.14.1"
+  }
 }
