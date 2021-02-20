@@ -55,14 +55,30 @@ class LinkedList {
         if(!this.head) {
             this.head = newHead;
             this.tail = newHead;
+        } else {
+            newHead.next = this.head;
+            this.head = newHead;
         }
-        newHead.next = this.head;
-        this.head = newHead;
         this.length +=1;
         console.log(this);
         return this;
     }
 
+    get(idx) {
+        // debugger;
+        if (idx < 0 || idx > this.length) {
+            return null;
+        }
+        let counter = 0;
+        let current = this.head;
+        let i = 0;
+        while(counter !== index) {
+            current = current.next;
+            counter++
+        }
+        console.log(current);
+        return current;
+    }
     clear() {
         this.head = null;
         this.tail = null;

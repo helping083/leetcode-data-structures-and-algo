@@ -1,11 +1,3 @@
-import Node from './Node.js';
-import MaxSubArraySubb from './Problems/MaxSubArraySum.js';
-import LinkedList from './LinkedList.js';
-const ll = new LinkedList();
-const maxSubArraySumProblem = new MaxSubArraySubb();
-ll.push('test');
-ll.push('second');
-ll.push('third');
-ll.shift();
-ll.shift();
-ll.shift();
+import Productsum from './Problems/ProductSum.js';
+let product = new Productsum();
+console.log(product.productSum([5,2,[7,-1], 3, [6, [-13,8]],4]));
