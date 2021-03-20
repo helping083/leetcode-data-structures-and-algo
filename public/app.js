@@ -1,2 +1,2 @@
-import { prefixSum } from './Problems/arrays/prefixSum.js'
-prefixSum([10, 20, 10, 5, 15]);
+import { moveElementToTheEnd } from './Problems/arrays/moveElementToTheEnd.js'
+moveElementToTheEnd([1,5,2,2,2,2,9,6,7,1], 2);
