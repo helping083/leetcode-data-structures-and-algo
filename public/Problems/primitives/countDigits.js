@@ -1,0 +1,1 @@
+export const countDigitsLeetcode = n => Math.floor(Math.log10(Math.abs(n))) + 1;
